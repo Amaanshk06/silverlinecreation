@@ -139,7 +139,7 @@ const ContactPage = () => {
             className="flex flex-col gap-8 justify-start"
           >
             <div className="max-w-md">
-              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">Get in Touch</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 uppercase">Get in Touch</h2>
 
               {/* Phone */}
               <div className="flex items-start gap-4 mb-6">
@@ -150,7 +150,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-sm text-[#F2F2F2] font-semibold">Phone</h4>
+                  <h4 className="text-sm text-[#F2F2F2] font-semibold uppercase">Phone</h4>
                   <p className="text-sm text-[#bfc7c9]">+91 7522999449</p>
                 </div>
               </div>
@@ -164,7 +164,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-sm text-[#F2F2F2] font-semibold">Email</h4>
+                  <h4 className="text-sm text-[#F2F2F2] font-semibold uppercase">Email</h4>
                   <p className="text-sm text-[#bfc7c9]">silverlinecreation5001@gmail.com</p>
                 </div>
               </div>
@@ -178,7 +178,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-sm text-[#F2F2F2] font-semibold">Location</h4>
+                  <h4 className="text-sm text-[#F2F2F2] font-semibold uppercase">Location</h4>
                   <p className="text-sm text-[#bfc7c9]">Goa, India</p>
                 </div>
               </div>
