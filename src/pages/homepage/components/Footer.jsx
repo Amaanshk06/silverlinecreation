@@ -204,23 +204,22 @@ const Footer = () => {
       </motion.div>
 
       {/* Floating Buttons Container */}
-      <div className="fixed bottom-20 right-11 flex flex-row gap-4 z-50">
+      <div className="fixed bottom-20 right-11 flex flex-row gap-3 z-50">
 
         {/* WhatsApp Button */}
         <motion.a
           href="https://wa.me/+917522999449"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-14 h-14 bg-[#050301] border-2 border-[#059599] rounded-full flex items-center justify-center shadow-xl hover:shadow-2xl transition-smooth"
+          className="w-12 h-12 bg-[#050301] border-2 border-[#059599] rounded-full flex items-center justify-center shadow-xl hover:shadow-2xl transition-smooth"
           aria-label="Chat on WhatsApp"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          viewport={{ once: true }}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="42"
-            height="42"
+            width="28"
+            height="28"
             viewBox="0 0 32 32"
             fill="currentColor"
             className="text-[#F2F2F2]"
@@ -234,16 +233,15 @@ const Footer = () => {
           href="mailto:rinitanagvekar@silverlinecreation.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-14 h-14 bg-[#050301] border-2 border-[#059599] rounded-full flex items-center justify-center shadow-xl hover:shadow-2xl transition-smooth"
+          className="w-12 h-12 bg-[#050301] border-2 border-[#059599] rounded-full flex items-center justify-center shadow-xl hover:shadow-2xl transition-smooth"
           aria-label="Send Email"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          viewport={{ once: true }}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="28"
+            height="28"
             viewBox="0 0 24 24"
             fill="currentColor"
             className="text-[#F2F2F2]"
@@ -257,6 +255,7 @@ const Footer = () => {
         </motion.a>
 
       </div>
+
 
 
     </footer>
