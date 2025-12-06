@@ -4,26 +4,27 @@ import { Link } from "react-router-dom";
 
 const projects = [
   {
-    image: 'assets/images/luxuryVillaImage.png',
-    title: 'Luxury Villa – South Goa',
-    description: 'Modern architecture with premium interior finishing.',
+    image: 'assets/images/project1.jpg',
+    title: 'Residential Structure – RCC Framework',
+    description: 'Reinforced concrete framework construction with slab and column work executed as per structural engineering standards.',
   },
   {
-    image: 'assets/images/bungalowImage.png',
-    title: 'Beachside Bungalow',
-    description: 'Custom-built coastal residence for NRI clients.',
+    image: 'assets/images/project4.jpg',
+    title: 'Modern Apartment Building',
+    description: 'Completed multi-storey residential apartment with contemporary façade design and efficient space planning.',
   },
   {
-    image: 'assets/images/commercialImage.png',
-    title: 'Commercial Complex – Vasco',
-    description: 'Multi-storey retail and office space in prime location.',
+    image: 'assets/images/project3.jpg',
+    title: 'Commercial Building – Ongoing Construction',
+    description: 'Commercial structure under development featuring high-load RCC slabs and robust site execution.',
   },
   {
-    image: 'assets/images/renovatedImage.png',
-    title: 'Renovated Heritage Home',
-    description: 'Preserved original Goan charm with modern upgrades.',
+    image: 'assets/images/project2.jpg',
+    title: 'Slab Casting & Foundation Work',
+    description: 'On-site slab casting and reinforcement work carried out with precision to ensure long-term structural durability.',
   },
 ];
+
 
 const OurPortfolio = () => {
   return (

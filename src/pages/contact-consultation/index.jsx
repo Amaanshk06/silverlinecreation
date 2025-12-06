@@ -178,7 +178,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-sm text-[#F2F2F2] font-semibold uppercase">Location</h4>
+                  <h4 className="text-sm text-[#F2F2F2] font-semibold uppercaseN">Location</h4>
                   <p className="text-sm text-[#bfc7c9]">Goa, India</p>
                 </div>
               </div>
