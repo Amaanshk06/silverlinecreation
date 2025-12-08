@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section className="w-full pt-0 -mt-9">
       {/* === TOP HERO SECTION WITH BACKGROUND IMAGE === */}
-      <div className="relative w-full h-[10vh] md:h-[50vh] flex items-center justify-center">
+      <div className="relative w-full h-[30vh] md:h-[50vh] flex items-center justify-center">
         {/* Background Image */}
         <Image
           src="/assets/images/letBuild.png"
