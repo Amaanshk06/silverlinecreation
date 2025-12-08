@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className="relative w-full h-[10vh] md:h-[50vh] flex items-center justify-center">
         {/* Background Image */}
         <Image
-          src="/assets/images/letBuild.bmp"
+          src="/assets/images/letBuild.png"
           alt="Office Background"
           loading="lazy"
           className="absolute inset-0 w-full h-full object-cover"

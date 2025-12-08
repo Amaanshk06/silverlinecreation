@@ -5,16 +5,18 @@ import Header from "../../components/ui/Header";
 import Footer from "./components/Footer";
 
 const images = [
-  "/assets/images/serviceImage1.bmp",
-  "/assets/images/serviceImage2.bmp",
-  "/assets/images/serviceImage3.bmp",
-  "/assets/images/serviceImage4.bmp",
-  "/assets/images/serviceImage5.bmp",
-  "/assets/images/serviceImage6.bmp",
-  "/assets/images/serviceImage7.bmp",
-  "/assets/images/serviceImage8.bmp",
-  "/assets/images/serviceImage9.bmp",
-  "/assets/images/serviceImage10.bmp",
+  "/assets/images/serviceImage1.png",
+  "/assets/images/serviceImage2.png",
+  "/assets/images/serviceImage3.png",
+  "/assets/images/serviceImage4.png",
+  "/assets/images/serviceImage5.png",
+  "/assets/images/serviceImage6.png",
+  "/assets/images/serviceImage7.png",
+  "/assets/images/serviceImage8.png",
+  "/assets/images/serviceImage9.png",
+  "/assets/images/serviceImage10.png",
+  "/assets/images/serviceImage11.png",
+  "/assets/images/serviceImage12.png",
 ];
 
 const directions = [
@@ -51,47 +53,58 @@ const ProjectsPortfolio = () => {
       </div>
 
       <main className="flex-grow relative overflow-hidden">
-        <motion.section
-          className="relative w-full h-screen overflow-hidden"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-        >
-          <div className="absolute inset-0 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 sm:grid-rows-1  md:grid-rows-2">
-            {images.map((img, index) => (
-              <motion.img
-                key={index}
-                src={img}
-                alt={`Project ${index + 1}`}
-                className="w-full h-32 sm:h-40 md:h-full object-cover"
-                variants={directions[index % directions.length]}
-                initial="hidden"
-                animate="visible"
-                transition={{ duration: 0.8, delay: index * 0.2 }}
-                whileHover={{ scale: 1.05 }}
-              />
-            ))}
-          </div>
-
+  <motion.section
+    className="relative w-full bg-black py-10 overflow-hidden"
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true }}
+  >
+    {/* Image gallery */}
+    <div className="max-w-6xl mx-auto px-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
+        {images.map((img, index) => (
           <motion.div
-            className="absolute inset-0 flex items-center justify-center z-10 px-4"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
+            key={index}
+            className="relative aspect-[4/3] overflow-hidden"
+            variants={directions[index % directions.length]}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.8, delay: index * 0.15 }}
+            whileHover={{ scale: 1.02 }}
           >
-            <motion.div
-              className="bg-teal-600 text-white text-center py-4 sm:py-6 px-6 sm:px-12 rounded-lg sm:rounded-xl shadow-2xl"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1 }}
-            >
-              <h2 className="text-xl sm:text-3xl md:text-5xl font-bold tracking-wide leading-snug">
-                PROJECT <br /> SNAPSHOTS
-              </h2>
-            </motion.div>
+            <motion.img
+              src={img}
+              alt={`Project ${index + 1}`}
+              className="w-full h-full object-cover"
+              whileHover={{ scale: 1.08 }}
+              transition={{ duration: 0.4 }}
+            />
           </motion.div>
-        </motion.section>
-      </main>
+        ))}
+      </div>
+    </div>
+
+    {/* Centered heading overlay */}
+    <motion.div
+      className="pointer-events-none absolute inset-0 flex items-center justify-center z-10 px-4"
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
+    >
+      <motion.div
+        className="bg-teal-600/90 text-white text-center py-4 sm:py-6 px-6 sm:px-12 rounded-lg sm:rounded-xl shadow-2xl"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 1 }}
+      >
+        <h2 className="text-xl sm:text-3xl md:text-5xl font-bold tracking-wide leading-snug">
+          PROJECT <br /> SNAPSHOTS
+        </h2>
+      </motion.div>
+    </motion.div>
+  </motion.section>
+</main>
+
 
       <Footer />
     </div>

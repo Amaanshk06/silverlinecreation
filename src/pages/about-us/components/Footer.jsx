@@ -172,7 +172,7 @@ const Footer = () => {
               <span>
                 Designed by{' '}
                 <a
-                  href="#"
+                  href="https://www.instagram.com/eviation.marketing/?igsh=ZnNla3N6cDZzaXV1#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#F16319] no-underline italic"

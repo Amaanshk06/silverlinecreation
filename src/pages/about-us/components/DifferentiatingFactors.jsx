@@ -16,13 +16,13 @@ const industries = [
     title: (
       <>
         {/* Desktop only */}
-        <span className="hidden lg:inline">
+        <span className="hidden xl:inline">
           &nbsp;&nbsp;Trusted in-house <br />
           team for seamless <br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;execution
         </span>
         {/* Mobile only */}
-        <span className="inline lg:hidden">
+        <span className="inline xl:hidden">
           Trusted in-house <br />
           team for seamless <br />
           execution
@@ -38,12 +38,12 @@ const industries = [
     icon: <HelpingHand className="w-14 h-14 text-[#059599]" />,
     title: (
       <>
-        <span className="hidden lg:inline">
+        <span className="hidden xl:inline">
           Post-construction <br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;support and <br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;guidance
         </span>
-        <span className="inline lg:hidden">
+        <span className="inline xl:hidden">
           Post-construction <br />
           support and <br />
           guidance
@@ -55,11 +55,11 @@ const industries = [
     icon: <BadgeCheck className="w-14 h-14 text-[#059599]" />,
     title: (
       <>
-        <span className="hidden lg:inline">
+        <span className="hidden xl:inline">
           Honest pricing with <br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; no hidden costs
         </span>
-        <span className="inline lg:hidden">
+        <span className="inline xl:hidden">
           Honest pricing with <br />
           no hidden costs
         </span>
@@ -97,7 +97,7 @@ const Industries = () => {
         </h1>
 
         {/* DESKTOP VIEW */}
-        <div className="relative mx-auto max-w-7xl w-full h-[700px] hidden lg:block">
+        <div className="relative mx-auto max-w-7xl w-full h-[700px] hidden xl:block">
           {/* SVG Lines */}
           <svg className="absolute inset-0 w-full h-full z-0 pointer-events-none">
             <path d="M640 600 L640 300 Q640 250 250 100" stroke="#F16319" fill="none" strokeWidth="2" />
@@ -145,7 +145,7 @@ const Industries = () => {
         </div>
 
         {/* MOBILE VIEW */}
-        <div className="block lg:hidden">
+        <div className="block xl:hidden">
           <div className="flex flex-col items-center gap-6">
             {industries.map((item, index) => (
               <motion.div

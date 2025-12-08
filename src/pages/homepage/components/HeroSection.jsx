@@ -27,7 +27,7 @@ const HeroSection = () => {
   ));
 
   return (
-    <section className="relative h-[100vh] sm:h-screen-[350px]  w-full overflow-hidden">
+    <section className="relative h-[100vh] lg:h-[60vh] xl:h-[100vh] sm:h-screen-[350px]  w-full overflow-hidden">
       {/* Inject keyframes */}
       <style>{styles}</style>
 
