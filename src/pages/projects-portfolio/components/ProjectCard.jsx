@@ -10,7 +10,7 @@ const BackgroundSection = () => {
       {/* Background image section */}
       <section
         ref={ref}
-        className="relative h-[350px] sm:h-[400px] md:h-[450px] bg-cover bg-center flex items-end"
+        className="relative h-[350px] sm:h-[400px] md:h-[580px] bg-cover bg-center flex items-end"
         style={{ backgroundImage: "url('assets/images/project.jpeg')" }}
       >
         <motion.div

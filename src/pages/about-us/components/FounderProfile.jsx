@@ -35,7 +35,7 @@ const FounderSection = () => {
 
         {/* Name */}
         <h3 className="italic text-[#F2F2F2] text-lg sm:text-xl md:text-2xl font-medium z-10 uppercase">
-          Rahool Mayekar
+          Rinita Nagvekar
         </h3>
 
         {/* Underline */}
@@ -43,9 +43,7 @@ const FounderSection = () => {
 
         {/* Description */}
         <p className="text-[#F2F2F2] text-sm sm:text-base max-w-3xl px-2 sm:px-4 mb-10 leading-relaxed">
-          With over a decade of hands-on experience, Rahool built Silverline Creation as a transparent, honest,
-          and emotionally driven construction brand. He leads every project with vision and dedication,
-          backed by a loyal team of skilled professionals.
+          With over a decade of hands-on experience, guided by the expertise of her husband and the mentorship of her father, Rinita Nagvekar has built Silverline Creation into a transparent, honest, and emotionally driven construction brand. She leads every project with clear vision and unwavering dedication, supported by a loyal team of skilled professionals—including engineers and architects—who work seamlessly together to turn your dream spaces into reality.
         </p>
 
         {/* Section Heading */}

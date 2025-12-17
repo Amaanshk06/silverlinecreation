@@ -8,7 +8,7 @@ const BackgroundSection = () => {
   return (
     <section
       ref={ref}
-      className="relative h-[400px] md:h-[580px] flex items-center bg-cover bg-center "
+      className="relative h-[400px] md:h-[580px] lg:h-[580px]  flex items-center bg-cover bg-center "
       loading="lazy"
       style={{ backgroundImage: "url('assets/images/Body.png')" }}
     >

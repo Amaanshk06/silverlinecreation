@@ -92,7 +92,7 @@ const ProjectsPortfolio = () => {
       transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
     >
       <motion.div
-        className="bg-teal-600/90 text-white text-center py-4 sm:py-6 px-6 sm:px-12 rounded-lg sm:rounded-xl shadow-2xl"
+        className="bg-teal-600/60 text-white text-center py-4 sm:py-6 px-6 sm:px-12 rounded-lg sm:rounded-xl shadow-2xl"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1 }}
