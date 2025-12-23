@@ -23,14 +23,14 @@ const FounderSection = () => {
       <div className="relative z-10 flex flex-col items-center text-center px-4">
         {/* Founder Image */}
         <motion.img
-          src="/assets/images/founderImage.png"
-          alt="Rahool Mayekar"
+          src="/assets/images/founderImage.jpeg"
+          alt="Rinita Nagvekar"
           loading="lazy"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="w-[400px] sm:w-[360px] md:w-[420px] lg:w-[580px] grayscale object-cover rounded-md mb-6"
+          className="h-[500px] w-[400px] sm:w-[360px] md:w-[420px] lg:w-[580px] grayscale object-cover rounded-md mb-6"
         />
 
         {/* Name */}
